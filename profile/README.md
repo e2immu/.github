@@ -18,6 +18,8 @@ Repository overview
 | language | [inspection](https://github.com/e2immu/language-inspection)   | api        | 17 | Common API for language inspection/resolution/path management |
 | language | [inspection](https://github.com/e2immu/language-inspection)   | parser     | 17 | Implementation of the parsing and resolution aspects of the API |
 | language | [inspection](https://github.com/e2immu/language-inspection)   | resource   | 17 | Implementation of the resource/input/path aspects of the API |
+| language | [java](https://github.com/e2immu/language-java)               | bytecode   | 17 | Byte code inspection using ASM |
+| language | [java](https://github.com/e2immu/language-java)               | parser     | 17 | Source parsing using CongoCC |
 | util     | [external](https://github.com/e2immu/util-external)           | support    | 8  | Annotations, support classes, and support for Annotated APIs |
 | util     | [internal](https://github.com/e2immu/util-internal)           | graph      | 17 | A graph library that uses _jgraph_ as a dependency. Support for linearization of dependency graphs. |
 | util     | [internal](https://github.com/e2immu/util-internal)           | util       | 17 | Utility classes shared by multiple projects. |
