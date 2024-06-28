@@ -1,11 +1,10 @@
 Repository overview
 -------------------
 
-| main     | sub                                                            | subsub          | jdk | description                    |
-|----------|----------------------------------------------------------------|-----------------|:---:|--------------------------------|
-| analyzer | shallow  | aapi | 17 | Annotated API parsing |
-| analyzer | shallow  | minimal | 17 | Minimal analyzer   |
-| analyzer | shallow  | integration | 17 | Entry point for shallow analyzer usage |
+| main     | sub                                                           | subsub      | jdk | description                    |
+|----------|---------------------------------------------------------------|-------------|:---:|--------------------------------|
+| analyzer | [shallow](https://github.com/e2immu/analyzer-shallow)         | aapi        | 8   | Annotated APIs for JDK and common libraries |
+| analyzer | [shallow](https://github.com/e2immu/analyzer-shallow)         | analyzer    | 17  | Annotated API reader and shallow analyzer  |
 | analyzer | modification | hiddencontent | 17 | First step in modification analysis |
 | analyzer | modification | immutable     | 17 | Determine @Container, @Immutable |
 | analyzer | modification | integration   | 17 | Entry point for modification analyzer usage |
