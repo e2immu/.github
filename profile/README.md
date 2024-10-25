@@ -10,6 +10,7 @@ Repository overview
 | analyzer | [run](https://github.com/e2immu/analyzer-run)                   | gradleplugin    | Gradle plugin |
 | analyzer | [shallow](https://github.com/e2immu/analyzer-shallow)           | aapi            | Annotated APIs for JDK and common libraries. |
 | analyzer | [shallow](https://github.com/e2immu/analyzer-shallow)           | analyzer        | Annotated API reader and shallow analyzer  |
+| language | [cst](https://github.com/e2immu/language-cst)                   | analysis        | Analysis property-value definitions |
 | language | [cst](https://github.com/e2immu/language-cst)                   | api             | Primary interfaces of the Common Syntax Tree |
 | language | [cst](https://github.com/e2immu/language-cst)                   | impl            | Primary implementation of the Common Syntax Tree |
 | language | [cst](https://github.com/e2immu/language-cst)                   | io              | JSON I/O for CST analysis objects |
