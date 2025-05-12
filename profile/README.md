@@ -1,15 +1,22 @@
 Repository overview
 -------------------
 
+Devops: [e2immu-devops](https://github.com/e2immu/e2immu-devops).
+
+Source code:
+
 | main     | sub                                                             | subsub          | description                    |
 |----------|-----------------------------------------------------------------|-----------------|--------------------------------|
+| analyzer | [modification](https://github.com/e2immu/analyzer-modification) | common          | Common analyzer classes |
+| analyzer | [modification](https://github.com/e2immu/analyzer-modification) | io              | Reading and writing AnalyzedPackage files |
 | analyzer | [modification](https://github.com/e2immu/analyzer-modification) | prepwork        | First steps in modification analysis (hidden content, variable info) |
 | analyzer | [modification](https://github.com/e2immu/analyzer-modification) | linkedvariables | Variable linking analysis, @Modified, @Independent |
 | analyzer | [run](https://github.com/e2immu/analyzer-run)                   | config          | Configuration |
 | analyzer | [run](https://github.com/e2immu/analyzer-run)                   | main            | command line options, main method  |
 | analyzer | [run](https://github.com/e2immu/analyzer-run)                   | gradleplugin    | Gradle plugin |
-| analyzer | [shallow](https://github.com/e2immu/analyzer-shallow)           | aapi            | Annotated APIs for JDK and common libraries. |
-| analyzer | [shallow](https://github.com/e2immu/analyzer-shallow)           | analyzer        | Annotated API reader and shallow analyzer  |
+| analyzer | [runmvn](https://github.com/e2immu/analyzer-runmvn)             | mvnplugin       | Maven plugin |
+| analyzer | [aapi](https://github.com/e2immu/analyzer-aapi)                 | archive         | Annotated APIs for JDK and common libraries, and their AnalyzedPackage files |
+| analyzer | [aapi](https://github.com/e2immu/analyzer-aapi)                 | parser          | Annotated API parser and writer  |
 | language | [cst](https://github.com/e2immu/language-cst)                   | analysis        | Analysis property-value definitions |
 | language | [cst](https://github.com/e2immu/language-cst)                   | api             | Primary interfaces of the Common Syntax Tree |
 | language | [cst](https://github.com/e2immu/language-cst)                   | impl            | Primary implementation of the Common Syntax Tree |
